@@ -24,10 +24,10 @@ st.markdown("### Sales, Profit & Customer Analytics")
 # =====================================================
 
 connection = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="9495",
-    database="e_commerce_sales_data_analysis"
+    host=st.secrets["mysql"]["host"],
+    user=st.secrets["mysql"]["user"],
+    password=st.secrets["mysql"]["password"],
+    database=st.secrets["mysql"]["database"]
 )
 
 # =====================================================
