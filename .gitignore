@@ -1,6 +1,7 @@
+# Environment variables
 .env
 
- # Python
+# Python
 __pycache__/
 *.pyc
 
@@ -12,11 +13,8 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Streamlit
+# Streamlit secrets
 .streamlit/secrets.toml
 
-# Environment variables
-.env
-
-# MySQL credentials
+# MySQL backup files
 *.sql.bak
