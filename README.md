@@ -74,7 +74,7 @@ pip install streamlit pandas numpy matplotlib seaborn mysql-connector-python
 
 Run the dashboard:
 
-streamlit run dashboard/app.py
+streamlit run app.py
 
 ## 📌 Conclusion
 
